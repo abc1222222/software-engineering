@@ -1,0 +1,101 @@
+# ---------------------------------------------------------------------------
+# Java compiled output
+# Note: .java source files ARE tracked and must not be ignored.
+# ---------------------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+out/
+bin/
+target/
+
+# ---------------------------------------------------------------------------
+# Gradle
+# ---------------------------------------------------------------------------
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+# Gradle wrapper is not committed in this repository; run `gradle wrapper`
+# to generate it locally.
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# ---------------------------------------------------------------------------
+# Android
+# ---------------------------------------------------------------------------
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+release/
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
+output.json
+
+# Keystores and signing material
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# ---------------------------------------------------------------------------
+# IDE - Android Studio / IntelliJ / Eclipse / NetBeans / VS Code
+# ---------------------------------------------------------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+.classpath
+.project
+.settings/
+.metadata/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Python (helper scripts / tooling)
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# ---------------------------------------------------------------------------
+# OS
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---------------------------------------------------------------------------
+# Credentials
+# ---------------------------------------------------------------------------
+*.key
+*.pem
+*token*
+*secret*
+*password*
